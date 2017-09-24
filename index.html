@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Tic-Tac-Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1 class='text-center'>FCC Tic-Tac-Toe</h1>
+<div class='container' id='board'>
+  <div id='scoreAndReset'>
+    <div id='p1'>
+      <p>P1: <i id='sc1'></i></p>
+    </div>
+    <div id='p2'>
+      <p>P2: <i id='sc2'></i></p>
+    </div>
+    <div onclick='setTheStage()' id='reset' class='text-center'>
+      <p>Reset</p>
+    </div>
+  </div>
+  <div id='funArea' class='container'>
+    <div class='fields text-center' id='f1'><p id='f1p'></p></div>
+    <div class='fields text-center' id='f2'><p id='f2p'></p></div>
+    <div class='fields text-center' id='f3'><p id='f3p'></p></div>
+    <div class='fields text-center' id='f4'><p id='f4p'></p></div>
+    <div class='fields text-center' id='f5'><p id='f5p'></p></div>
+    <div class='fields text-center' id='f6'><p id='f6p'></p></div>
+    <div class='fields text-center' id='f7'><p id='f7p'></p></div>
+    <div class='fields text-center' id='f8'><p id='f8p'></p></div>
+    <div class='fields text-center' id='f9'><p id='f9p'></p></div>
+    <h3 class='sOrM text-center'>Wanna play alone or with a friend?</h3>
+    <div class='sOrM text-center begBtn aa' id='alone'>Alone...</div>
+    <div class='sOrM text-center begBtn aa' id='notAlone'>With a friend!</div>
+    <h3 class='xOrO text-center'>Do you (player 1) wanna be X or O?</h3>
+    <div class='xOrO text-center begBtn bb' id='x'>X</div>
+    <div class='xOrO text-center begBtn bb' id='o'>O</div>
+    <h3 id='win' class='message text-center'>Congrats, you won!</h3>
+    <h3 id='loss' class='message text-center'>You lost...</h3>
+    <h3 id='tie' class='message text-center'>Well, you're evenly matched.</h3>
+  </div>
+</div>
+<footer>
+  <p class="caption text-center myText" id="footer">Written and coded by <a href="https://codepen.io/TheR3apr/full/YNNmob/" title="Author's portfolio" target="_blank">Bogdan Stojiljkovic</a></p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

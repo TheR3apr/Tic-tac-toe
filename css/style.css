@@ -1,0 +1,95 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: #ffe4c4;
+}
+h1 {
+  margin-top: 40px;
+}
+#board {
+  font-weight: bold;
+  height: 300px;
+  width: 300px;
+  margin-top: 60px;
+  border-radius: 10px;
+  border: 1px solid #89847e;
+  padding: 0px 30px 30px 30px;
+  box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.5), inset -1px -3px 3px 1px #89847e;
+  background:
+linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px
+}
+#scoreAndReset {
+  height: 30px;
+  width: auto;
+  padding-top: 4px;
+}
+
+#p1 {
+  display: inline-block;
+  width: 80px;
+}
+#p2 {
+  display: inline-block;
+  width: 80px;
+}
+#reset {
+  display: inline-block;
+  margin-left: 15px;
+  height: 22px;
+  width: 45px;
+}
+#reset:hover, #reset:active{
+  border: 1px dashed lightgray;
+  border-radius: 5px;
+  color: gray;
+}
+#funArea {
+  padding: 0px 0px 0px 0px;
+  height: 240px;
+  width: 240px;
+  background-color: lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+.fields {
+  padding-top: 10px;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  font-size: 420%;
+  margin-right: -5px;
+  margin-bottom: -5px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#f1, #f2, #f4, #f5, #f7, #f8 {
+  margin-right: -5px;
+  border-right: 1px solid black;
+}
+.fields:hover {
+  background-color: white;
+}
+p {
+ 
+  font-size: 150%;
+}
+footer {
+  margin-top: 15px;
+}
+h3 {
+  margin: 85px 10px auto 10px;
+}
+.begBtn {
+  display: inline-block;
+  margin: 25px auto auto 47px;
+}
+#x, #o {
+  margin-left: 75px;
+}
+.begBtn:hover, .begBtn:active{
+  border: 1px dashed lightgray;
+  border-radius: 5px;
+  color: gray;
+}
